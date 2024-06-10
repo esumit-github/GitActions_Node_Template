@@ -1,0 +1,20 @@
+{
+  "name": "nodeapp_github",
+  "version": "1.0.0",
+  "description": "This is simple nodejs applicaiton with github actions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "github",
+    "github",
+    "actions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "data-fns": "^1.1.0"
+  }
+}
