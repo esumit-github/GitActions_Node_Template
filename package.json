@@ -12,7 +12,7 @@
     "github",
     "actions"
   ],
-  "author": "",
+  "author": "Sumit",
   "license": "ISC",
   "dependencies": {
     "data-fns": "^1.1.0"
