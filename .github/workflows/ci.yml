@@ -10,8 +10,6 @@ permissions:
   contents: read
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
     
   build-node:
     runs-on: ${{ matrix.node-version }}
