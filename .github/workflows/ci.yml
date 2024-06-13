@@ -31,4 +31,5 @@ jobs:
     - run: npm --version
     - uses: actions/checkout@v4.1.5
     - run: npm install
+    - run: npm test
     - run: node app.js
