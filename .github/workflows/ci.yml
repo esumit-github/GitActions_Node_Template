@@ -7,14 +7,13 @@ on:
     branches: [ "main" ]
 
 permissions:
-  contents: read
+    checks: writes
 
 jobs:
     
   build-node:
     runs-on: ${{ matrix.node-version }}
-    permissions:
-      checks: writes
+
     strategy:
       matrix:
         node-version: ['18.x', '20.x']
